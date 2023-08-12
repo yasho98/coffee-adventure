@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewpoint" content="with=device-width, initial-scale=0.1">
+    <title>Order Form | Coffee Break</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Great+Vibes&family=Montaga&family=Montez&family=Poppins:wght@400;500;600&family=RocknRoll+One&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="banner-5">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt="logo" width="150px"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>
+                </ul>
+        
+            </div>
+        </nav>
+        <selection class="ordering">
+            <h1>Order Your favourite Coffee! </h1>
+        
+            <form action="process_order.php" method="post" class="order-form">
+               <div class="flex">
+                <div class="inputbox">
+                    <span>Name:</span>
+                    <input type="text" placeholder="Enter Your Name" name="Name" required>
+                </div>
+                <div class="inputbox">
+                    <span>Age</span>
+                    <input type="Age" placeholder="Enter your age" name="Age">
+                </div>
+                <div class="inputbox">
+                    <span>Email:</span>
+                    <input type="Email" placeholder="Enter Your Email" name="Email" required>
+                </div>
+                <div class="inputbox">
+                    <span>Phone:</span>
+                    <input type="number" placeholder="Enter Your number" name="Phone" required>
+                </div>
+                <div class="inputbox">
+                    <span>Address:</span>
+                    <input type="text" placeholder="Enter Your Address" name="Address" required>
+                </div>
+                <div class="inputbox">
+                    <span>coffee type:</span>
+                    <select id="coffee_type" name="coffee_type" required>
+                        <option value="espresso">Espresso</option>
+                        <option value="latte">Latte</option>
+                        <option value="Black_Coffee">Black Coffee</option>
+                        <option value="Mocha">Mocha</option>
+                        <option value="Americano">Americano</option>
+                        <option value="cappuccino">Cappuccino</option>
+                        <option value="Cafe-au-Lait">Cafe-au-Lait</option>
+                        <option value="Macchiato">Macchiato</option>
+                        <option value="Cold Brew">Cold Brew</option>
+                        <option value="Irish Coffee">Irish Coffee</option>
+                        <option value="Frappe">Frappe</option>
+                        <option value="Affogato">Affogato</option>
+                    </select>
+                </div>
+                <div class="inputbox">
+                    <span>Bakery Item:</span>
+                    <select id="bakery_item" name="bakery_item" required>
+                        <option value="Croissant-Cornetto">Croissant Cornetto</option>
+                        <option value="Cream-Cheese-Sandwich">Cream Cheese Sandwich</option>
+                        <option value="Chocolate-Chip-Cookies">Chocolate Chip Cookies</option>
+                        <option value="Chocolate-Pastry-Puffs">Chocolate Pastry Puffs</option>
+                        <option value="Cinnamon-Rolls">Cinnamon Rolls</option>
+                        <option value="Donuts">Donuts</option>
+                    </select>
+                </div>
+
+               </div>
+                
+                <input type="submit" value="Submit" class="btn" name="send">
+            </form>
+        </section>
+    </section>
+
+    
+            
+    
+    
+ 
+
+
+
+
+<!--FOOTER-->
+    <section id="footer">
+        
+       <div class="title-text">
+           <h1>Visit us</h1>
+       </div>
+       <div class="footer-row">
+        <div class="footer-left">
+            <h1>Opening Hours</h1>
+            <p><i class="fa fa-clock-o"></i>  Monday to Friday - 8 a.m. to 9 p.m.</p>
+            <p><i class="fa fa-clock-o"></i>  Saturday and Sunday - 8 a.m. to 10 p.m.</p>
+        </div>
+        <div class="footer-right">
+            <h1>Get In Touch</h1>
+            <p>No.30, Colombo Road, 61170 Wennappuwa, Sri Lanka.  <i class="fa fa-map-marker"></i></p>
+            <p>+94771810817  <i class="fa fa-phone"></i></p>
+            <p>coffeebreak.info@gmail.com  <i class="fa fa-envelope-o"></i></p>
+        </div>
+       </div>
+       <div class="social-links">
+        <i class="fa fa-facebook-official"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-whatsapp"></i>
+       </div>
+    </section>
+
+
+
+</body>        
+</html>
